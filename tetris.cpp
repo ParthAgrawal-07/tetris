@@ -24,7 +24,6 @@ const char BLOCK = '#';
 // Grid and Score
 vector<vector<char>> grid(HEIGHT, vector<char>(WIDTH, EMPTY));
 int score = 0;
-int linesCleared = 0;
 int level = 1;
 bool powerUpUsed = false; // Track if the power-up has been used
 
@@ -142,7 +141,6 @@ void drawStats() {
     cout << pad <<"     STATS:\n";
     cout << pad <<"     Level: " << level << "\n";
     cout << pad <<"     Score: " << score << "\n";
-    cout << pad <<"     Lines Cleared: " << linesCleared << "\n";
     cout << pad <<"     Power-Up:           \r"; // Overwrite previous text with spaces
     cout << pad <<"     Power-Up: " << (powerUpUsed ? "Used" : "Available") << "\n";
 }
