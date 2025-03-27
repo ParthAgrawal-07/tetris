@@ -66,6 +66,10 @@ g++ tetris.cpp -o tetris -lwinmm
 ## Display of the Game
 - It's a simple Tetris game with a straightforward UI/UX, making it easy to understand and play. 🕹️🎮
 
+## Screenshot of game
+![tetris game screenshot](https://github.com/ParthAgrawal-07/tetris/blob/main/tetrisscreenshot.png?raw=true)
+
+
 ## Key Features
 - Classic Tetris mechanics 🧩
 - Tetromino rotation and movement 🔄
