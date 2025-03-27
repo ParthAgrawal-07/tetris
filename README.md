@@ -18,7 +18,7 @@ The goal of the game is to manipulate the falling Tetrominoes to create complete
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/tetris.git
+   git clone https://github.com/ParthAgrawal-07/tetris.git
    cd tetris
    ```
 2. Install dependencies (if any):
@@ -54,7 +54,7 @@ The goal of the game is to manipulate the falling Tetrominoes to create complete
 ### On Windows
 #### Using GCC (MinGW):
 ```
-g++ main.cpp -o tetris
+g++ tetris.cpp -o tetris -lwinmm
 ```
 ```
 ./tetris
