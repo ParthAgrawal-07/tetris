@@ -68,7 +68,6 @@ g++ tetris.cpp -o tetris -lwinmm
 
 ## Screenshot and Video of game
 ![tetris game screenshot](https://github.com/ParthAgrawal-07/tetris/blob/main/tetrisscreenshot.png?raw=true)
-![Game Video](https://github.com/ParthAgrawal-07/tetris/raw/main/ScreenRecording2025-03-27230714.mp4)
 
 ## Key Features
 - Classic Tetris mechanics 🧩
