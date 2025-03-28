@@ -1,4 +1,3 @@
-Here's the updated README file with more emojis added for visual appeal:
 
 # Tetris Game 🎮✨
 
@@ -48,7 +47,8 @@ The goal of the game is to manipulate the falling Tetrominoes to create complete
 - `ctime` for time ⏳
 - `vector` for vector 📊
 - `fstream` for file handling 📂
-- `unordered_map` for high score management 🏆
+- `unordered_map` for high score and mapping
+management 🏆
 - `algorithm` for sorting 🔢
 - `mmsystem.h` for sound effects 🎵
 
