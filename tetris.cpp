@@ -386,7 +386,7 @@ void startMenu() {
 }
 
 void playMusic() {
-    PlaySound(TEXT("Tetris.wav"), NULL, SND_ASYNC | SND_LOOP); // Loops music asynchronously
+    PlaySound(TEXT("song1.wav"), NULL, SND_ASYNC | SND_LOOP); // Loops music asynchronously
 }
 
 void confirmRestart() {
@@ -422,7 +422,7 @@ void gameLoop() {
 
     while (true) {
         drawGrid();
-        dropSpeed = max(100, 300 - (score / 10) * 50);
+        dropSpeed = max(100, 100 - (score / 10) * 50);
 
         if (_kbhit()) {
             char key = _getch();
